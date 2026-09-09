@@ -1,9 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Personal Profile</title>
+    <title>Sajjad Ali | Personal Profile</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -25,43 +26,47 @@
     <main>
 
         <section id="about">
-            <h2>About Me</h2>
-            <p>
-                Hi, I'm Sajjad Ali , currrently learning Web Development
-            </p>
+            <div>
+                <h2>About Me</h2>
+                <p>
+                    Hi, I'm Sajjad Ali, currently learning Web Development.
+                </p>
+            </div>
             <figure>
-                <img src="portfolio.png" alt="Portrait photo of Sajjad Ali">
-                <figcaption>Sajjad Ali — Full-Stack Engineering Intern, AUREX</figcaption>
+                <img src="picmy.png" alt="Portrait photo of Sajjad Ali">
+                <figcaption>Sajjad Ali – Full-Stack Engineering Intern, AUREX</figcaption>
             </figure>
         </section>
 
         <section id="skills">
             <h2>Skills</h2>
-            <article>
-                <h3>Technical Skills</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>Git &amp; GitHub</li>
-                    <li>CSS</li>
-                    <li>Js</li>
-                    <li>Python</li>
-                </ul>
-            </article>
-            <article>
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>Problem solving</li>
-                    <li>Communication</li>
-                    <li>Time management</li>
-                </ul>
-            </article>
+            <div class="skills-grid">
+                <article>
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>Git &amp; GitHub</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Problem solving</li>
+                        <li>Communication</li>
+                        <li>Time management</li>
+                    </ul>
+                </article>
+            </div>
         </section>
 
         <section id="education">
             <h2>Education</h2>
             <article>
                 <h3>Bs(IT)</h3>
-                <p>University of the Punjab — 2023 to 2027</p>
+                <p>University of the Punjab – 2023 to 2027</p>
                 <p>I am currently working on AI and ML with MERN</p>
             </article>
         </section>
@@ -70,54 +75,53 @@
             <h2>Experience</h2>
             <article>
                 <h3>AUREX Full-Stack Engineering Internship</h3>
-                <p>Month 1, Week 1 — Present</p>
+                <p>Month 1, Week 2 – Present</p>
                 <p>
-                    Currently building frontend fundamentals: development environment
-                    setup, Git/GitHub workflow, and semantic HTML5 structure.
+                    Building frontend fundamentals: development environment
+                    setup, Git/GitHub workflow, semantic HTML5 structure,
+                    and modern CSS layouts (Flexbox & Grid).
                 </p>
             </article>
-            <!--
-                If you have no prior work experience, that's okay — you can leave
-                just the AUREX entry above, or remove this whole section per the
-                guide's "(if applicable)" note. Don't fabricate experience.
-            -->
         </section>
 
         <section id="contact">
             <h2>Contact Me</h2>
-            <form action="#" method="post">
-                <div>
-                    <label for="name">Full Name</label><br>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div>
-                    <label for="email">Email Address</label><br>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div>
-                    <label for="subject">Subject</label><br>
-                    <input type="text" id="subject" name="subject">
-                </div>
-                <div>
-                    <label for="message">Message</label><br>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                <div>
-                    <button type="submit">Send Message</button>
-                </div>
-            </form>
+            <div class="contact-container">
+                <form action="#" method="post">
+                    <div>
+                        <label for="name">Full Name</label><br>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email Address</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="subject">Subject</label><br>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+                    <div>
+                        <label for="message">Message</label><br>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
 
-            <address>
-                Email: <a href="mailto:you@example.com">you@example.com</a><br>
-                LinkedIn: <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a><br>
-                GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a>
-            </address>
+                <address>
+                    <h3>Contact Information</h3>
+                    <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+                    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
+                    <p>GitHub: <a href="https://github.com/sajjaddogar">github.com/sajjaddogar</a></p>
+                </address>
+            </div>
         </section>
 
     </main>
 
     <footer>
-        <p>&copy; 2026 Sajjad ali. Built as part of the AUREX Full-Stack Engineering Internship — Week 1.</p>
+        <p>&copy; 2026 Sajjad Ali. Built as part of the AUREX Full-Stack Engineering Internship – Week 2.</p>
     </footer>
 
 </body>
